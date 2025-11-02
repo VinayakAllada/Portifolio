@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">Portfolio</div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h3>Hey! I'm <span class="hero-name">Vinayak Allada</span></h3>
+          <p>
+            I’m a computer science student deeply interested in problem-solving,
+            algorithms, and web development. I enjoy tackling logical challenges
+            and turning ideas into interactive, well-designed web experiences.
+          </p>
+          <p>
+            I’ve built projects ranging from real-time chat applications to data
+            management systems, combining my passion for coding and design with
+            practical implementation. I’m constantly learning new technologies,
+            improving my DSA skills, and exploring better ways to build
+            efficient, scalable, and visually appealing solutions.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item card">
+              <span class="stat-number" data-target="12">0</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item card">
+              <span class="stat-number" data-target="2">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="rotating-circle">
+            <img src="/profile-pic.jpg" alt="Profile Photo" />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Skills & Expertise</h2>
+          <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Projects</h2>
+          <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+      </section>
+
+      <section id="education" class="education-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Education</h2>
+          <div class="timeline" id="educationTimeline"></div>
+        </div>
+      </section>
+
+      <section id="awards" class="awards-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Awards & Recognition</h2>
+          <div class="awards-grid" id="awardsGrid"></div>
+        </div>
+      </section>
+
+      <section id="hobbies" class="hobbies-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Hobbies</h2>
+          <div class="hobbies-grid">
+            <div class="hobby-card card" data-aos="fade-up">
+              <span class="hobby-icon">🤖</span>
+              <h3>Exploring AI Tools</h3>
+            </div>
+            <div
+              class="hobby-card card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <span class="hobby-icon">🧠</span>
+              <h3>Problem Solving</h3>
+            </div>
+            <div
+              class="hobby-card card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <span class="hobby-icon">📺</span>
+              <h3>Watching Anime</h3>
+            </div>
+            <div
+              class="hobby-card card"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <span class="hobby-icon">🏏</span>
+              <h3>Playing Cricket</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info" data-aos="fade-right">
+              <h3>Let's Work Together</h3>
+              <p>
+                Have a project in mind? I'd love to hear about it. Send me a
+                message and let's create something amazing together.
+              </p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <span class="icon">📧</span>
+                  <span>vinayakallada@email.com</span>
+                </div>
+                <div class="contact-item">
+                  <span class="icon">📱</span>
+                  <span>+91 9100596212</span>
+                </div>
+                <div class="contact-item">
+                  <span class="icon">📍</span>
+                  <span>Nagpur, Maharastra - 440010</span>
+                </div>
+              </div>
+              <div class="social-links">
+                <a
+                  href="https://github.com/VinayakAllada"
+                  target="_blank"
+                  class="social-link"
+                  aria-label="GitHub"
+                >
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/vinayak-allada-29a068317/"
+                  target="_blank"
+                  class="social-link"
+                  aria-label="LinkedIn"
+                >
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/vinay.allada/"
+                  target="_blank"
+                  class="social-link"
+                  aria-label="Instagram"
+                >
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <form class="contact-form card" id="contactForm" data-aos="fade-left">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder=" "
+                />
+                <label for="name">Name</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder=" "
+                />
+                <label for="email">Email</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  placeholder=" "
+                />
+                <label for="subject">Subject</label>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder=" "
+                ></textarea>
+                <label for="message">Message</label>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <p>&copy; 2025 Vinayak Allada.</p>
+        <p>Crafted with learning, late nights, and endless debugging.</p>
+      </div>
+    </footer>
+
+    <a
+      href="#home"
+      class="scroll-to-top"
+      id="scrollTopBtn"
+      aria-label="Scroll to top"
+    >
+      <span>↑</span>
+    </a>
+
+    <a
+      href="#footer"
+      class="scroll-to-bottom"
+      id="scrollBottomBtn"
+      aria-label="Scroll to bottom"
+    >
+      <span>↓</span>
+    </a>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
