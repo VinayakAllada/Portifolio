@@ -139,28 +139,28 @@ const portfolioData = {
   ],
   awards: [
     {
-      title: "Best Web Design",
-      organization: "Tech Fest 2023",
+      title: "Hackathon Winner",
+      organization: "Aditya Birla Capital",
       date: "March 2023",
       icon: "🏆",
       description:
         "First prize for innovative web design in annual technology festival.",
     },
     {
-      title: "Hackathon Winner",
-      organization: "Code Sprint 2023",
-      date: "July 2023",
+      title: "Codechef 3⭐ rating",
+      organization: "Codechef",
+      date: "July 2025",
       icon: "🥇",
       description:
-        "Won 24-hour hackathon by building a social impact web application.",
+        "Acheived 3star rating in codechef weekly contests",
     },
     {
       title: "Outstanding Project",
-      organization: "University",
-      date: "December 2023",
+      organization: "ACM College Club",
+      date: "September 2024",
       icon: "⭐",
       description:
-        "Recognition for exceptional final year project in web development.",
+        "Recognition for exceptional project in web development.",
     },
   ],
 };
