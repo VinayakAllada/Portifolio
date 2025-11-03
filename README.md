@@ -40,16 +40,15 @@ This project fulfills all the requirements specified in the assignment:
 * **JavaScript (ES6+):** For all interactivity, data injection, theme switching, and animations (DOM Manipulation, Intersection Observer, `localStorage`).
 * **Boxicons:** For the icon library.
 
-## Project Structure
-
+## 📂 Project Structure
 /portfolio-website
 │
-├─ index.html → main HTML structure / sections
-├─ style.css → all custom styles + CSS variables
-├─ script.js → interactivity, scroll behaviors, animations
-├─ data.js → portfolio content (skills, projects, etc.)
-├─ profile-pic.jpg → profile photo
-└─ README.md → documentation
+├─ index.html        → main HTML structure / sections
+├─ style.css         → all custom styles + CSS variables
+├─ script.js         → interactivity, scroll logic, animations
+├─ data.js           → all portfolio content (skills, projects, etc.)
+├─ profile-pic.jpg   → profile photo
+└─ README.md         → documentation file
 
 ## 🚀 Getting Started
 
@@ -57,13 +56,13 @@ To run this project on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[Your-Username]/[Your-Repo-Name].git
+    git clone https://github.com/VinayakAllada/Portifolio.git
     ```
     *(Note: Update this URL to your actual GitHub repository link)*
 
 2.  **Navigate to the directory:**
     ```bash
-    cd [Your-Repo-Name]
+    cd Portifolio
     ```
 
 3.  **Open the file:**
