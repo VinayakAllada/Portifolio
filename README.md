@@ -41,7 +41,15 @@ This project fulfills all the requirements specified in the assignment:
 * **Boxicons:** For the icon library.
 
 ## 📂 Project Structure
-/portfolio-website | |-- index.html (The main HTML structure/skeleton) |-- style.css (All custom styles and theme variables) |-- script.js (All interactivity, animations, and data injection logic) |-- data.js (All portfolio content - skills, projects, etc.) |-- profile-pic.jpg (Your profile picture file) |--README.md (This file)
+/portfolio-website
+│
+├─ index.html        → main HTML structure / sections
+├─ style.css         → all custom styles + CSS variables
+├─ script.js         → interactivity, scroll logic, animations
+├─ data.js           → all portfolio content (skills, projects, etc.)
+├─ profile-pic.jpg   → profile photo
+└─ README.md         → documentation file
+
 ## 🚀 Getting Started
 
 To run this project on your local machine:
