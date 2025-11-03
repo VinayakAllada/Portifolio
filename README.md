@@ -40,15 +40,16 @@ This project fulfills all the requirements specified in the assignment:
 * **JavaScript (ES6+):** For all interactivity, data injection, theme switching, and animations (DOM Manipulation, Intersection Observer, `localStorage`).
 * **Boxicons:** For the icon library.
 
-## 📂 Project Structure
+## Project Structure
+
 /portfolio-website
 │
-├─ index.html        → main HTML structure / sections
-├─ style.css         → all custom styles + CSS variables
-├─ script.js         → interactivity, scroll logic, animations
-├─ data.js           → all portfolio content (skills, projects, etc.)
-├─ profile-pic.jpg   → profile photo
-└─ README.md         → documentation file
+├─ index.html → main HTML structure / sections
+├─ style.css → all custom styles + CSS variables
+├─ script.js → interactivity, scroll behaviors, animations
+├─ data.js → portfolio content (skills, projects, etc.)
+├─ profile-pic.jpg → profile photo
+└─ README.md → documentation
 
 ## 🚀 Getting Started
 
