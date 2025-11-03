@@ -121,7 +121,7 @@ At the very top of `style.css`, you will find two `:root` blocks. You can change
   --text-primary: #f8fafc;
   /* ...and so on */
 }
-
+```
 4. script.js
 No changes are needed here unless you are adding or removing entire features.
 
